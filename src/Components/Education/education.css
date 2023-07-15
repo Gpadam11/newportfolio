@@ -1,0 +1,134 @@
+
+.rightbox {
+  height: 100%;
+  margin-left: 10rem;
+}
+
+.rb-container {
+  /* width: 50%; */
+  display: flex;
+  position: relative;
+    /* margin-left: 6rem; */
+}
+
+.rb-container ul.rb {
+  margin: 2.5em 0;
+  padding: 0;
+  display: inline-block;
+}
+
+.rb-container ul.rb li {
+  list-style: none;
+  margin: auto;
+  min-height: 50px;
+  border-left: 1px dashed #fff;
+  padding: 0 0 50px 30px;
+  position: relative;
+}
+
+.rb-container ul.rb li:last-child {
+  border-left: 0;
+}
+
+.rb-container ul.rb li::before {
+  position: absolute;
+  left: -10px;
+  content: " ";
+  border: 8px solid rgba(255, 255, 255, 1);
+  border-radius: 500%;
+  background: #50d890;
+  height: 20px;
+  width: 20px;
+  transition: all 500ms ease-in-out;
+}
+
+.rb-container ul.rb li:hover::before {
+  border-color: #232931;
+  transition: all 100ms ease-in-out;
+}
+
+ul.rb li .timestamp {
+  color: #50d890;
+  position: relative;
+  width: 600px;
+  font-size: 22px;
+}
+
+.item-title {
+  color: #fff;
+}
+
+.container-3 {
+  width: 5em;
+  vertical-align: right;
+  white-space: nowrap;
+  position: absolute;
+}
+
+.about-title {
+    transform: rotate(90deg);
+    transform-origin: left top 0;
+    position: absolute;
+    letter-spacing: -0.5rem; 
+    margin-top: -2rem;
+}
+
+
+  /* .about-title .hover h2 {
+    color: transparent;
+    text-align: center;
+    -webkit-text-stroke: 2px #fff;
+    text-shadow: none;
+    transition: 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+  
+  .about-title .hover:hover h2 {
+    transform: scale(1.5);
+    color: #fff;
+  } */
+
+/* 
+ .about-title .hover {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .about-title .hover div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    opacity: 0;
+  }
+  
+  .about-title .hover:hover div {
+    opacity: 1;
+  }
+  
+  .about-title .hover h1 {
+    color: transparent;
+    text-align: center;
+    -webkit-text-stroke: 2px #fff;
+    text-shadow: none;
+    transition: 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+  
+  */
+
+  @media screen and (max-width: 1040px) {
+    .about-title {
+      transform: rotate(0deg);
+      transform-origin: left top 0;
+      position: relative;
+      top: 0;
+      left: 0;
+      margin: 5rem;
+      /* margin-top: 5rem; */
+      letter-spacing: 0.25rem;
+    width: 100%;
+    }
+  }
+
+

@@ -1,0 +1,104 @@
+.skills-list {
+    margin-inline: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .skills-list-item {
+    width: 25rem;
+    position: relative;
+    border: 2px solid transparent;
+    background: linear-gradient(71deg, #080509, #1a171c, #080509);
+    background-clip: padding-box;
+    border-radius: 45px;
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 36px;
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    justify-content: center;
+  }
+  
+  .skills-list-item:last-child {
+    margin-right: 0;
+  }
+  
+  .skills-list-item img {
+    width: 60px;
+    height: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: inline-block;
+    margin-right: 8px;
+  }
+  
+  .bg-white,
+  .bg-green,
+  .bg-yellow,
+  .bg-lightgreen,
+  .bg-orange,
+  .bg-blue {
+    position: relative;
+  }
+  
+  .bg-white::after,
+  .bg-green::after,
+  .bg-yellow::after,
+  .bg-lightgreen::after,
+  .bg-orange::after,
+  .bg-blue::after {
+    position: absolute;
+    top: -1px;
+    bottom: -1px;
+    left: -1px;
+    right: -1px;
+    content: "";
+    z-index: -1;
+    border-radius: 45px;
+  }
+  
+  .bg-yellow::after {
+    background: linear-gradient(71deg, #110e0e, #afa220, #110e0e);
+  }
+  
+  .bg-blue::after {
+    background: linear-gradient(71deg, #0c0a0e, #5f6fad, #0c0a0e);
+  }
+  
+  .bg-green::after {
+    background: linear-gradient(71deg, #0c0a0e, #5fad6f, #0c0a0e);
+  }
+  
+  .bg-white::after {
+    background: linear-gradient(71deg, #0c0a0e, #ffffff, #0c0a0e);
+  }
+
+    .bg-lightgreen::after {
+        background: linear-gradient(71deg, #0c0a0e, lightgreen, #0c0a0e);
+    }
+  
+  
+  .bg-orange::after {
+    background: linear-gradient(71deg, #0c0a0e, orange, #0c0a0e);
+  }
+  @media (max-width: 768px) {
+    .skills-list-item {
+      margin-bottom: 10px;
+      font-size: 20px;
+      justify-content: center;
+    }
+  
+    .skills-list-item img {
+      width: 40px;
+    }
+  
+    .skills-list {
+      margin-bottom: 10px;
+      margin-left: 0px;
+      display: flex;
+      justify-content: center;
+    }
+  }
+  

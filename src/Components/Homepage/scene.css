@@ -1,0 +1,81 @@
+
+/* scenes (the good stuff) */
+
+@keyframes scene-transition {
+    25% {
+      filter: brightness(100%);
+    }
+    100% {
+      filter: brightness(100%);
+      -webkit-mask-size: 1800%;
+    }
+  }
+  
+  
+
+  .scenes {
+    position: relative;
+    aspect-ratio: 2.4 / 1;
+  }
+  
+  .scene-1, .scene-2 {
+    position: absolute;
+    inset: 0;
+    background-size: cover;
+  }
+  
+  .scene-1 {
+    background-image:
+      radial-gradient(circle, rgba(255, 255, 255, 0.2) 10%, transparent 20%),
+      /* <img src={Gletter} alt="myself" />  use this as background*/
+  }
+  
+  .scene-2 {
+    background-image: url(https://assets.codepen.io/77020/sw-shape-zoom-scene-2.jpg);
+    filter: brightness(0%);
+    -webkit-mask-image: url(https://img.icons8.com/?size=512&id=9zVjmNkFCnhC&format=png);
+    -webkit-mask-size: 50%;
+    -webkit-mask-position: center right 30%;
+    -webkit-mask-repeat: no-repeat;
+  }
+  
+  .scenes:is(:hover, :focus) .scene-2 {
+    animation: scene-transition 3s cubic-bezier(1, 0, 1, 1) forwards;
+  }
+  
+  .scene-title {
+    position: absolute;
+    max-width: 45%;
+    margin: min(40px, 4vw);
+    font-size: 1.25em;
+  }
+  
+  .scene-1 .scene-title {
+    bottom: 0;
+    left: 0;
+    color: #fff;
+    text-align: left;
+  }
+  
+  .scene-2 .scene-title {
+    top: 0;
+    left: 0;
+    color: #fff;
+    text-align: left;
+  }
+  
+  /* everything else */
+  
+  @keyframes visual-transition {
+    25% {
+      background-color: #808080;
+    }
+    100% {
+      background-color: #808080;
+    }
+  }
+  
+  *, *::before, *::after {
+    box-sizing: border-box;
+  }
+

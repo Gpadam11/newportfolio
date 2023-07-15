@@ -1,0 +1,17 @@
+.hover-nav {
+  border: 5px solid;
+  border-image: linear-gradient(#00f4f8);
+  -webkit-mask: conic-gradient(at bottom 1px left 0.5px, #0000 90deg, #000 0) 0
+      var(--_i, 100%) / var(--_i, 0px) 200% border-box no-repeat,
+    linear-gradient(#000 0 0) padding-box no-repeat;
+  transition: 0.2s, -webkit-mask-position 0.2s 0.2s;
+}
+.hover-nav:hover {
+  --_i: 100%;
+  transition: 0.2s, -webkit-mask-size 0.2s 0.2s;
+}
+/* 
+@media(max-width: 1040px) {
+  .hover-nav{
+    border:none;
+  }} */
