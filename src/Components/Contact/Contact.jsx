@@ -1,6 +1,7 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import './Contact.css';
+import '../Homepage/stars.css'
 import { AiFillGithub, AiOutlineInstagram, AiOutlineTwitter } from 'react-icons/ai';
 import { GrLinkedinOption } from 'react-icons/gr';
 
@@ -29,6 +30,10 @@ const Contact = () => {
   };
 
   return (
+    <>
+    <div id='stars'></div>
+      <div id='stars2'></div>
+      <div id='stars3'></div>
     <section id="contact">
       <h1 className="section-header lg:text-7xl md:text-6xl sm:text-5xl xs:text-5xl font-montserrat font-bold uppercase tracking-wider text-center p-2 pb-6 text-white">
         Co<span className="border-green border-b-4">nta</span>ct
@@ -133,6 +138,7 @@ const Contact = () => {
         </div>
       </div>
     </section>
+    </>
   );
 };
 

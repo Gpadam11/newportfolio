@@ -6,18 +6,18 @@ import mypic from './myself.jpeg';
 const About = () => {
   const [expanded, setExpanded] = useState(false);
 
-  const readMore = () => {
+  const readMore = (event) => {
+    event.preventDefault();
     const expandInfo = document.getElementById('more-info-js');
-    const mainHeadings = document.getElementById('main-headings-js');
-
     const readMoreBtn = document.querySelector('.link');
     readMoreBtn.style.display = 'none';
 
 
-    mainHeadings.style.transform = 'scale(0.7)';
     expandInfo.style.height = '350px';
     setExpanded(true);
+
   };
+
 
   return (
     <>
@@ -36,7 +36,7 @@ const About = () => {
                 <h1 id="heading3">ABOUT</h1>
               </div>
 
-              <div className="short-bio">
+              <div className="short-bio mb-1rem">
                 <p>
                   I'm a passionate full stack developer with a creative flair for design, video editing, and UI/UX. I am committed to delivering exceptional work, paying close attention to detail, and ensuring the success of my team.
 
@@ -53,16 +53,16 @@ const About = () => {
               className={`more-info ${expanded ? 'expanded' : ''}`}
               id="more-info-js"
             >
-              <h4>Welcome to my flavorful world!</h4>
-              <p>
+              <h4 className='xs:text-sm mt-2rem'>Welcome to my flavorful world!</h4>
+              <p className='xs:text-sm'>
                 I sprinkle magic across digital platforms, crafting captivating campaigns and optimizing websites for maximum impact. With a dash of HTML, CSS, and JavaScript, I create web applications that are as visually stunning as they are functional.
               </p>
 
-              <p>
+              <p className='xs:text-sm'>
                 But my secret ingredient lies in the power of words. As a content connoisseur, I serve up delectable blog posts and mouthwatering website copy that leaves a lasting impression.
               </p>
 
-              <p>
+              <p className='xs:text-sm'>
                 So, pull up a seat and get ready for a taste of my skills. Together, we'll create a digital feast that satisfies cravings and leaves a lasting impression. Welcome to my flavorful world!
               </p>
             </div>

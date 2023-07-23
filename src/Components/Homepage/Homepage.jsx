@@ -53,7 +53,7 @@ const Homepage = () => {
 
 
       <div class="container" ref={nextSectionRef}>
-        <p class="container-title text-lightgreen">Here are some Projects</p>
+        <p class="container-title text-lightgreen md:text-4xl sm:text-3xl">Here are some Projects</p>
 
         <div class="gradient-cards">
           <div class="card">

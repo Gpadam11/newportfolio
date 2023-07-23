@@ -1,12 +1,13 @@
 import React from 'react';
 import './Skills.css';
-import { FaJava } from 'react-icons/fa';
-import { SiJavascript, SiCss3, SiHtml5 } from 'react-icons/si';
-import { RiCPlusPlusLine, RiCLine } from 'react-icons/ri';
+import '../Homepage/stars.css'
 
 const Skills = () => {
     return (
         <>
+            <div id='stars'></div>
+            <div id='stars2'></div>
+            <div id='stars3'></div>
             <section id="skills">
                 <div className="skills-wrapper p-5 pt-6 m-1rem flex">
                     <div className="skills-list text-white">
@@ -86,7 +87,7 @@ const Skills = () => {
                                 <img src="https://img.icons8.com/?size=2x&id=wWh3KNXLFm0y&format=png" alt="HTML" className="icon" />
                                 DSA
                             </li>
-                            
+
                         </ul>
                     </div>
                 </div>
