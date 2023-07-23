@@ -34,10 +34,10 @@
     margin-right: 8px;
   }
   
-  .bg-white,
+  /* .bg-white,
   .bg-green,
   .bg-yellow,
-  .bg-lightgreen,
+  .bg-red,
   .bg-orange,
   .bg-blue {
     position: relative;
@@ -46,7 +46,7 @@
   .bg-white::after,
   .bg-green::after,
   .bg-yellow::after,
-  .bg-lightgreen::after,
+  .bg-red::after,
   .bg-orange::after,
   .bg-blue::after {
     position: absolute;
@@ -75,14 +75,14 @@
     background: linear-gradient(71deg, #0c0a0e, #ffffff, #0c0a0e);
   }
 
-    .bg-lightgreen::after {
-        background: linear-gradient(71deg, #0c0a0e, lightgreen, #0c0a0e);
+    .bg-red::after {
+        background: linear-gradient(71deg, #0c0a0e, red, #0c0a0e);
     }
   
   
   .bg-orange::after {
     background: linear-gradient(71deg, #0c0a0e, orange, #0c0a0e);
-  }
+  } */
   @media (max-width: 768px) {
     .skills-list-item {
       margin-bottom: 10px;

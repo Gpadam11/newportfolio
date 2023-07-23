@@ -28,7 +28,7 @@ const Skills = () => {
                                 <img src="https://img.icons8.com/color/240/javascript--v1.png" alt="JavaScript" className="icon" />
                                 JavaScript
                             </li>
-                            <li className="skills-list-item border-2 bg-lightgreen">
+                            <li className="skills-list-item border-2 bg-red">
                                 <img src="https://img.icons8.com/color/240/html-5--v1.png" alt="HTML" className="icon" />
                                 HTML
                             </li>
@@ -36,7 +36,7 @@ const Skills = () => {
                                 <img src="https://img.icons8.com/color/240/css3.png" alt="CSS" className="icon" />
                                 CSS
                             </li>
-                            <li className="skills-list-item border-2 bg-orange">
+                            <li className="skills-list-item border-2 bg-blue">
                                 <img src="https://img.icons8.com/?size=512&id=13406&format=png" alt="CSS" className="icon" />
                                 SQL
                             </li>
@@ -59,11 +59,11 @@ const Skills = () => {
                                 <img src="https://img.icons8.com/?size=512&id=40253&format=png" alt="JavaScript" className="icon" />
                                 jQuery
                             </li>
-                            <li className="skills-list-item border-2 bg-lightgreen">
+                            <li className="skills-list-item border-2 bg-red">
                                 <img src="https://img.icons8.com/?size=512&id=CIAZz2CYc6Kc&format=png" alt="HTML" className="icon" />
                                 TailwindCSS
                             </li>
-                            <li className="skills-list-item border-2 bg-lightgreen">
+                            <li className="skills-list-item border-2 bg-white">
                                 <img src="https://img.icons8.com/?size=512&id=JChm4IprHBiD&format=png" alt="HTML" className="icon" />
                                 ExpressJS
                             </li>
@@ -82,7 +82,7 @@ const Skills = () => {
                                 <img src="https://img.icons8.com/?size=512&id=tBBf3P8HL0vR&format=png" alt="Java" className="icon" />
                                 MongoDB
                             </li>
-                            <li className="skills-list-item border-2 bg-lightgreen">
+                            <li className="skills-list-item border-2 bg-red">
                                 <img src="https://img.icons8.com/?size=2x&id=wWh3KNXLFm0y&format=png" alt="HTML" className="icon" />
                                 DSA
                             </li>
