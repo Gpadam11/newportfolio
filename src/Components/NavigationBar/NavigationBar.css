@@ -10,3 +10,12 @@
   --_i: 100%;
   transition: 0s, -webkit-mask-size 0s 0s;
 }
+.hover-nav.active {
+  --_i: 100%;
+  transition: 0s, -webkit-mask-size 0s 0s;
+}
+@media (max-width: 768px) {
+  .hover-nav {
+    border:none;
+  }
+}

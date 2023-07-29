@@ -9,7 +9,7 @@ const Skills = () => {
             <div id='stars2'></div>
             <div id='stars3'></div>
             <section id="skills">
-                <div className="skills-wrapper p-5 pt-6 m-1rem flex">
+                <div className="skills-wrapper p-5 pt-6 m-1rem">
                     <div className="skills-list text-white">
                         <h3 className="skills-list-title text-white text-4xl font-montserrat font-bold uppercase mb-2rem">Languages</h3>
                         <ul className="skills-list">
@@ -21,7 +21,7 @@ const Skills = () => {
                                 <img src="https://img.icons8.com/color/240/c-programming.png" alt="C" className="icon" />
                                 C
                             </li>
-                            <li className="skills-list-item border-2 bg-white flex">
+                            <li className="skills-list-item border-2 bg-white">
                                 <img src="https://img.icons8.com/color/240/java-coffee-cup-logo.png" alt="Java" className="icon" />
                                 Java
                             </li>
@@ -52,7 +52,7 @@ const Skills = () => {
                                 <img src="https://img.icons8.com/?size=512&id=54087&format=png" alt="C" className="icon" />
                                 NodeJS
                             </li>
-                            <li className="skills-list-item border-2 bg-white flex">
+                            <li className="skills-list-item border-2 bg-white">
                                 <img src="https://img.icons8.com/?size=512&id=84710&format=png" alt="Java" className="icon" />
                                 Bootstrap
                             </li>
@@ -79,7 +79,7 @@ const Skills = () => {
                                 <img src="https://img.icons8.com/?size=2x&id=AZOZNnY73haj&format=png" alt="C" className="icon" />
                                 Github
                             </li>
-                            <li className="skills-list-item border-2 bg-white flex">
+                            <li className="skills-list-item border-2 bg-white">
                                 <img src="https://img.icons8.com/?size=512&id=tBBf3P8HL0vR&format=png" alt="Java" className="icon" />
                                 MongoDB
                             </li>
