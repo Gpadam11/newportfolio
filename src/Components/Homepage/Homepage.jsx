@@ -41,19 +41,19 @@ const Homepage = () => {
     </div>
   </div>
 </div> */}
-      <div className='p-4 lg:m-5rem md:m-5rem sm:m-3rem'>
+      <div className='p-4 lg:m-5rem lg:mr-30rem md:m-5rem sm:m-3rem'>
         <div className='heading text-white p-3 uppercase font-bold font-calibre'> Hi there👋🏻, I'm</div>
         <div className='heading-name font-calibre font-bold lg:text-7xl md:text-6xl sm:text-5xl xs:text-5xl text-white p-3'>Geetika Padam</div>
         <div className='subheading-one uppercase text-green font-bold font-calibre p-3'>designer + developer👩🏻‍💻</div>
         <div className='subheading-two font-thin pl-3 text-lightgreen'>I'm a design minded full-stack developer</div>
         <div className='subheading-two font-thin pl-3 text-lightgreen'>transforming ideas into beautiful digital experiences</div>
-        <a href="../Contact"><button className='button-contact btn m-2rem text-lightgreen text-2xl sm:text-xl '>Get in touch </button></a>
+        <a href="../Contact"><button className='button-contact btn m-2rem text-lightgreen text-2xl sm:text-xl lg:mr-5rem '>Get in touch </button></a>
       </div>
-      <button className="arrow right-16" onClick={handleArrowClick}></button>
+      <button className="arrow" onClick={handleArrowClick}></button>
 
 
       <div class="container" ref={nextSectionRef}>
-        <p class="container-title text-lightgreen md:text-4xl sm:text-3xl">Here are some Projects</p>
+        <p class="container-title text-lightgreen md:text-4xl sm:text-3xl xs:text-2xl">Here are some Projects</p>
 
         <div class="gradient-cards">
           <div class="card">

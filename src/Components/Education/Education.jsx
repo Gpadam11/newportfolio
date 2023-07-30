@@ -5,10 +5,18 @@ import "../Homepage/stars.css";
 const Education = () => {
     return (
         <>
+
             <div id='stars'></div>
             <div id='stars2'></div>
             <div id='stars3'></div>
-
+            <header id="main">
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+            </header>
             <section id="education">
 
 
@@ -54,7 +62,7 @@ const Education = () => {
                         </h1>
                     </div>
                     <div className="hover relative inline-block ">
-                        <h1 className="text-gray-dark  text-center xs:text-6xl sm:text-7xl md:text-8xl lg:text-10xl font-bold hover:text-white hover:scale-150 transition-all duration-300 ease-in-out">
+                        <h1 className="text-gray-dark  text-center xs:text-6xl sm:text-8xl md:text-8xl lg:text-10xl font-bold hover:text-white hover:scale-150 transition-all duration-300 ease-in-out">
                             N
                         </h1>
                     </div>
@@ -89,6 +97,7 @@ const Education = () => {
                         </div>
                     </div>
                 </div>
+
             </section>
         </>
     )
