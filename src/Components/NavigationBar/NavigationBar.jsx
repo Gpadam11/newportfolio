@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { RiHomeLine } from "react-icons/ri";
 import { Link } from "react-router-dom";
+import resume from "./Geetika Padam Updated Resume.pdf";
 import "./NavigationBar.css";
 
 const NavigationBar = () => {
@@ -69,6 +70,7 @@ const NavigationBar = () => {
               >
                 Contact
               </Link>
+              <a href={resume}> <button className="navbar-item ml-1rem mr-1rem hover-nav hover:text-green xs:text-xs sm:text-sm md:text-base">Resume</button></a>
             </div>
           ) : null}
 
@@ -114,6 +116,11 @@ const NavigationBar = () => {
               <Link to="/contact" onClick={toggleMenu}>
                 Contact
               </Link>
+            </li>
+            <li> 
+              <a href={resume} download onClick={toggleMenu}>
+                Resume
+              </a>
             </li>
           </ul>
         </nav>

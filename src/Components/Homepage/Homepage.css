@@ -2,7 +2,7 @@
   letter-spacing: 5px;
 }
 
-.heading {
+.heading-greeting {
   letter-spacing: 3px;
 }
 .heading-name {
@@ -91,7 +91,7 @@ container {
 .container-title {
   text-align: center;
   padding: 0 !important;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
   /* font-size: 40px; */
   color: #fff;
   font-weight: 600;
@@ -188,7 +188,8 @@ container {
 .arrow:before {
   position: static;
   display: inline-block;
-  margin-left: 90%;
+  margin-left: 150%;
+  margin-bottom: 20px;;
 }
 
 .arrow {

@@ -6,6 +6,7 @@ import Homepage from "../Components/Homepage/Homepage";
 import Contact from "../Components/Contact/Contact";
 import Education from "../Components/Education/Education";
 import Skills from "../Components/Skills/Skills";
+import Certificates from "../Components/Certificates/Certificates";
 
 const RoutesModule = () => {
   return (
@@ -16,7 +17,7 @@ const RoutesModule = () => {
         <Route path="/contact" element={<Contact/>} />
         <Route path="/education" element={<Education/>} />
         <Route path="/skills" element={<Skills/>} />
-        {/* <Route path="/certificates" element={<Certificates/>} /> */}
+        <Route path="/certificates" element={<Certificates/>} />
         {/* <Route path="spacex" element={<Spacex />} />
         <Route path="rocket/:id" element={<Rocket />} />
         {/* wild card characters */}
