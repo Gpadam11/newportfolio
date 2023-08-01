@@ -22,47 +22,47 @@ const Education = () => {
 
                 <div className="about-title lg:ml-17rem xs:ml-1rem sm:ml-1rem">
                     <div className="hover relative inline-block ">
-                        <div className="text-gray  text-center xs:text-6xl sm:text-8xl md:text-8xl lg:text-12xl font-bold hover:text-white hover:scale-150  transition-all duration-300 ease-in-out ">
+                        <div className="text-gray  text-center xs:text-5xl sm:text-6xl md:text-8xl lg:text-12xl font-bold hover:text-white hover:scale-150  transition-all duration-300 ease-in-out ">
                             E
                         </div>
                     </div>
                     <div className="hover relative inline-block">
-                        <div className="text-transparent text-center xs:text-6xl sm:text-8xl md:text-8xl lg:text-12xl font-bold text-gray hover:text-white hover:scale-150  transition-all duration-300 ease-in-out">
+                        <div className="text-transparent text-center xs:text-5xl sm:text-6xl md:text-8xl lg:text-12xl font-bold text-gray hover:text-white hover:scale-150  transition-all duration-300 ease-in-out">
                             D
                         </div>
                     </div>
                     <div className="hover relative inline-block">
-                        <div className="text-transparent text-center xs:text-6xl sm:text-8xl md:text-8xl lg:text-12xl font-bold text-gray hover:text-white hover:scale-150  transition-all duration-300 ease-in-out">
+                        <div className="text-transparent text-center xs:text-5xl sm:text-6xl md:text-8xl lg:text-12xl font-bold text-gray hover:text-white hover:scale-150  transition-all duration-300 ease-in-out">
                             U
                         </div>
                     </div>
                     <div className="hover relative inline-block">
-                        <h1 className="text-transparent text-center xs:text-6xl sm:text-8xl md:text-8xl lg:text-12xl font-bold text-gray-dark hover:text-white hover:scale-150 transition-all duration-300 ease-in-out">
+                        <h1 className="text-transparent text-center xs:text-5xl sm:text-6xl md:text-8xl lg:text-12xl font-bold text-gray-dark hover:text-white hover:scale-150 transition-all duration-300 ease-in-out">
                             C
                         </h1>
                     </div>
                     <div className="hover relative inline-block">
-                        <h1 className="text-transparent text-center xs:text-6xl sm:text-8xl md:text-8xl lg:text-12xl font-bold text-gray-dark hover:text-white hover:scale-150 transition-all duration-300 ease-in-out">
+                        <h1 className="text-transparent text-center xs:text-5xl sm:text-6xl md:text-8xl lg:text-12xl font-bold text-gray-dark hover:text-white hover:scale-150 transition-all duration-300 ease-in-out">
                             A
                         </h1>
                     </div>
                     <div className="hover relative inline-block ">
-                        <h1 className="text-gray-dark  text-center xs:text-6xl sm:text-8xl md:text-8xl lg:text-12xl font-bold hover:text-white hover:scale-150  transition-all duration-300 ease-in-out">
+                        <h1 className="text-gray-dark  text-center xs:text-5xl sm:text-6xl md:text-8xl lg:text-12xl font-bold hover:text-white hover:scale-150  transition-all duration-300 ease-in-out">
                             T
                         </h1>
                     </div>
                     <div className="hover relative inline-block ">
-                        <h1 className="text-gray-dark  text-center xs:text-6xl sm:text-8xl md:text-8xl lg:text-12xl font-bold hover:text-white hover:scale-150 transition-all duration-300 ease-in-out">
+                        <h1 className="text-gray-dark  text-center xs:text-5xl sm:text-6xl md:text-8xl lg:text-12xl font-bold hover:text-white hover:scale-150 transition-all duration-300 ease-in-out">
                             I
                         </h1>
                     </div>
                     <div className="hover relative inline-block ">
-                        <h1 className="text-gray-dark  text-center xs:text-6xl sm:text-8xl md:text-8xl lg:text-12xl font-bold hover:text-white hover:scale-150  transition-all duration-300 ease-in-out">
+                        <h1 className="text-gray-dark  text-center xs:text-5xl sm:text-6xl md:text-8xl lg:text-12xl font-bold hover:text-white hover:scale-150  transition-all duration-300 ease-in-out">
                             O
                         </h1>
                     </div>
                     <div className="hover relative inline-block ">
-                        <h1 className="text-gray-dark  text-center xs:text-6xl sm:text-8xl md:text-8xl lg:text-10xl font-bold hover:text-white hover:scale-150 transition-all duration-300 ease-in-out">
+                        <h1 className="text-gray-dark  text-center xs:text-5xl sm:text-6xl md:text-8xl lg:text-10xl font-bold hover:text-white hover:scale-150 transition-all duration-300 ease-in-out">
                             N
                         </h1>
                     </div>
@@ -70,7 +70,7 @@ const Education = () => {
 
 
                 <div class="rightbox">
-                    <div class="container">
+                    <div class="edu-container">
 
 
                         <div class="rb-container md:ml-5rem xs:-ml-5rem">

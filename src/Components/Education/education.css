@@ -49,19 +49,11 @@
 ul.rb li .timestamp {
   color: #50d890;
   position: relative;
-  width: 600px;
   font-size: 22px;
 }
 
 .item-title {
   color: #fff;
-}
-
-.container-3 {
-  width: 5em;
-  vertical-align: right;
-  white-space: nowrap;
-  position: absolute;
 }
 
 .about-title {
@@ -125,7 +117,7 @@ ul.rb li .timestamp {
     margin: 1rem;
     /* margin-top: 5rem; */
     letter-spacing: 0.25rem;
-    width: 100%;
+    width: 90%;
   }
 }
 
