@@ -181,7 +181,6 @@ ul.rb li .timestamp {
 
 @media (max-width: 640px) {
   ul.rb li .timestamp {
-    font-size: 12px;
+    font-size: 16px;
   }
-  
 }
