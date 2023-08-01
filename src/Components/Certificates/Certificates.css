@@ -15,7 +15,7 @@ a {
   color: inherit;
 }
 
-.cards-wrapper {
+.certificate-cards-wrapper {
   display: grid;
   justify-content: center;
   align-items: center;
@@ -26,7 +26,7 @@ a {
   width: max-content;
 }
 
-.card {
+.certificate-card {
   font-family: 'Heebo';
   --bg-filter-opacity: 0.5;
   height: 12em;
@@ -49,18 +49,18 @@ a {
   background-image: var(--bg-img);
 }
 
-.card:hover {
+.certificate-card:hover {
   transform: rotate(0);
 }
 
-.card h3 {
+.certificate-card h3 {
   margin: 0;
   font-size: 1.5em;
   line-height: 1.2em;
 }
 
 
-.card:before, .card:after {
+.certificate-card:before, .certificate-card:after {
   content: '';
   transform: scale(0);
   transform-origin: top left;
@@ -73,27 +73,27 @@ a {
   transition-timing-function: ease-in-out;
 }
 
-.card:before {
+.certificate-card:before {
   background: #ddd;
   width: 250%;
   height: 250%;
 }
 
-.card:after {
+.certificate-card:after {
   background: white;
   width: 200%;
   height: 200%;
 }
 
-.card:hover {
+.certificate-card:hover {
   color: var(--color);
 }
 
-.card:hover:before, .card:hover:after {
+.certificate-card:hover:before, .certificate-card:hover:after {
   transform: scale(1);
 }
 
-.card-grid-space .num {
+.certificate-card-grid-space .num {
   font-size: 3em;
   margin-bottom: 1.2rem;
   margin-left: 1rem;
@@ -101,31 +101,31 @@ a {
 
 /* MEDIA QUERIES */
 @media screen and (max-width: 1285px) {
-  .cards-wrapper {
+  .certificate-cards-wrapper {
     grid-template-columns: 1fr 1fr;
   }
 }
 
 @media screen and (max-width: 900px) {
-  .cards-wrapper {
+  .certificate-cards-wrapper {
     grid-template-columns: 1fr;
   }
-  .card-grid-space .num {
+  .certificate-card-grid-space .num {
     margin-left: 0;
     text-align: center;
   }
 }
 
 @media screen and (max-width: 500px) {
-  .cards-wrapper {
+  .certificate-cards-wrapper {
     padding: 4rem 2rem;
   }
-  .card {
+  .certificate-card {
     max-width: calc(100vw - 4rem);
   }
 }
 
-.card .overlay {
+.certificate-card .overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -139,11 +139,11 @@ a {
     transition: opacity var(--transition-time);
   }
   
-  .card:hover .overlay {
+  .certificate-card:hover .overlay {
     opacity: 1;
   }
   
-  .card .overlay h3 {
+  .certificate-card .overlay h3 {
     margin: 0;
     font-size: 1.5em;
     line-height: 1.2em;

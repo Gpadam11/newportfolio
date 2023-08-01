@@ -20,7 +20,7 @@ const Education = () => {
             <section id="education">
 
 
-                <div className="about-title lg:ml-17rem xs:ml-5rem sm:ml-5rem">
+                <div className="about-title lg:ml-17rem xs:ml-1rem sm:ml-1rem">
                     <div className="hover relative inline-block ">
                         <div className="text-gray  text-center xs:text-6xl sm:text-8xl md:text-8xl lg:text-12xl font-bold hover:text-white hover:scale-150  transition-all duration-300 ease-in-out ">
                             E
@@ -73,7 +73,7 @@ const Education = () => {
                     <div class="container">
 
 
-                        <div class="rb-container md:ml-5rem">
+                        <div class="rb-container md:ml-5rem xs:-ml-5rem">
                             <ul class="rb">
                                 <li class="rb-item" ng-repeat="itembx">
                                     <div class="timestamp">

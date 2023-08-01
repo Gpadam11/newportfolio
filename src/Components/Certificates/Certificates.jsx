@@ -13,19 +13,19 @@ const Certificates = () => {
         <div id='stars2'></div>
         <div id='stars3'></div>
   
-      <section className="cards-wrapper">
-        <div className="card-grid-space">
+      <section className="certificate-cards-wrapper">
+        <div className="certificate-card-grid-space">
           <div className="num text-gray-dark">01</div>
-          <a className="card" href={fullstack}>
+          <a className="certificate-card" href={fullstack}>
             <img src={fullstackImg} alt="Fullstack" />
             <div className="overlay">
               <h3>Full Stack Certificate</h3>
             </div>
           </a>
         </div>
-        <div className="card-grid-space">
+        <div className="certificate-card-grid-space">
           <div className="num text-gray-dark">02</div>
-          <a className="card" href={sql}>
+          <a className="certificate-card" href={sql}>
             <img src={sqlImg} alt="SQL Intermediate" />
             <div className="overlay">
               <h3>SQL Certificate</h3>

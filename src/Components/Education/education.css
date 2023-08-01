@@ -122,7 +122,7 @@ ul.rb li .timestamp {
     position: relative;
     top: 0;
     left: 0;
-    margin: 5rem;
+    margin: 1rem;
     /* margin-top: 5rem; */
     letter-spacing: 0.25rem;
     width: 100%;
@@ -185,4 +185,11 @@ ul.rb li .timestamp {
   animation-delay: 6s;
   top: 50%;
   left: 60%;
+}
+
+@media (max-width: 640px) {
+  ul.rb li .timestamp {
+    font-size: 12px;
+  }
+  
 }
