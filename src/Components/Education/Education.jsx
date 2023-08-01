@@ -73,7 +73,7 @@ const Education = () => {
                     <div class="edu-container">
 
 
-                        <div class="rb-container md:ml-5rem xs:-ml-5rem">
+                        <div class="rb-container md:ml-8rem xs:-ml-5rem">
                             <ul class="rb">
                                 <li class="rb-item" ng-repeat="itembx">
                                     <div class="timestamp">
