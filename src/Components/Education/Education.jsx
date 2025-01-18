@@ -79,7 +79,7 @@ const Education = () => {
                                     <div class="timestamp">
                                         Bachelor of Technology<div> Kalinga Institute of Industral Technology
                                         </div>
-                                        <div class="item-title">2021-Present</div>
+                                        <div class="item-title">2021-2025</div>
                                         <div class="item-subtitle text-gray">Computer Science Engineering
                                         </div>
                                     </div>

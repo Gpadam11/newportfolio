@@ -25,7 +25,6 @@ a {
   margin: 0 auto;
   width: max-content;
 }
-
 .certificate-card {
   font-family: 'Heebo';
   --bg-filter-opacity: 0.5;
@@ -35,19 +34,26 @@ a {
   color: white;
   border-radius: 1em;
   padding: 1em;
-  /*margin: 2em;*/
   display: flex;
-  align-items: flex-end;
+  justify-content: center; /* Horizontally center the content */
+  align-items: center; /* Vertically center the content */
   background-size: cover;
   background-position: center;
   box-shadow: 0 0 5em -1em black;
-  transition: all, var(--transition-time);
+  transition: all var(--transition-time);
   position: relative;
   overflow: hidden;
   border: 10px solid #ccc;
   text-decoration: none;
   background-image: var(--bg-img);
 }
+
+.certificate-card img {
+  max-width: 100%; /* Ensure the image fits within the card */
+  max-height: 100%; /* Prevent the image from overflowing */
+  object-fit: contain; /* Preserve the aspect ratio of the image */
+}
+
 
 .certificate-card:hover {
   transform: rotate(0);

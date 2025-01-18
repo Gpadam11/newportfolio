@@ -3,6 +3,8 @@ import './stars.css'
 import "./Homepage.css"
 import './shootingstar.css'
 import weather from './images/weather-concept-illustration_114360-1234.jpg';
+import chatbot from './images/chatbot.jpg';
+import minorproject from './images/people-counting-application-setup.png'
 import bmi from './images/bmi image.png';
 import drumkit from './images/drumkit.jpg';
 import dice from './images/dice-game.jpg';
@@ -56,8 +58,23 @@ const Homepage = () => {
       <div class="container" ref={nextSectionRef}>
         <p class="container-title text-lightgreen md:text-4xl sm:text-3xl xs:text-2xl">Her<span className='underline-offset-8 underline'>e are some Proj</span>ects</p>
         <div class="gradient-cards">
+        <div class="card">
+            <div class="container-card bg-white">
+              <img src={chatbot} alt="chatbot" class="image h-15rem w-100%" />
+              <p class="card-title ">Chatbot</p>
+              <p class="card-description">Designed a chatbot using Python, Flask, LangChain, and NLP to efficiently retrieve faculty information, leveraging CSV parsing, embedding models, and a user-friendly interface with HTML and CSS</p>
+              
+            </div>
+          </div>
           <div class="card">
             <div class="container-card bg-blue">
+              <img src={minorproject} alt="people counting" class="image h-15rem w-100%" />
+              <p class="card-title ">People Counting & Real-Time Tracking</p>
+              <p class="card-description">Developed a system using Python, OpenCV, TensorFlow, and YOLOv8 for customer behavior analysis, including age / gender classification, people count, and heatmap generation.</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="container-card bg-green">
               <img src={weather} alt="Weather" class="image h-15rem w-100%" />
               <p class="card-title ">Weather Forecast</p>
               <p class="card-description">A React-based UI, which integrates real-time data from the Weather API for accurate forecasts.</p>
@@ -102,7 +119,7 @@ const Homepage = () => {
             </div>
           </div>
           <div class="card">
-            <div class="container-card bg-green">
+            <div class="container-card bg-red">
               <img src={dice} alt="Weather" class="image h-15rem w-100%" />
               <p class="card-title ">Dice Roll</p>
               <p class="card-description">This is an engaging dice roll game that utilizes JavaScript and DOM manipulation to determine the victorious player.</p>

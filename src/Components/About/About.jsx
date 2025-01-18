@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './about.css';
 // import '../Homepage/stars.css';
-import mypic from './myself.jpeg';
+import mypic from './WhatsApp Image 2025-01-18 at 19.01.17_eb6a4e69.jpg';
 
 const About = () => {
   const [expanded, setExpanded] = useState(false);

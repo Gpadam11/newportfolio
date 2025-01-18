@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { RiHomeLine } from "react-icons/ri";
 import { Link } from "react-router-dom";
-import resume from "./Geetika Padam Updated Resume.pdf";
+import resume from "./GeetikaPadamResume.pdf";
 import "./NavigationBar.css";
 
 const NavigationBar = () => {
